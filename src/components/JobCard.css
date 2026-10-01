@@ -1,0 +1,11 @@
+.job-card { display: flex; flex-direction: column; gap: 10px; transition: transform .2s, box-shadow .2s; }
+.job-card:hover { transform: translateY(-6px); box-shadow: 0 12px 28px rgba(15,23,42,.08); }
+.job-card h3 { font-size: 18px; margin-top: 4px; }
+.job-company { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+.job-logo { width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; color: #fff; font-weight: 800; }
+.heart { margin-left: auto; background: none; border: 0; font-size: 24px; line-height: 1; color: var(--muted); }
+.heart.on { color: #EF4444; }
+.heart.pulse { animation: heartPop .35s; }
+@keyframes heartPop { from { transform: scale(1.3); } to { transform: scale(1); } }
+.job-footer { margin-top: auto; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.job-posted { font-size: 13px; }

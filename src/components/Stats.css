@@ -1,0 +1,4 @@
+.stats-section { padding: 24px 0 56px; }
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; text-align: center; }
+.stat b { display: block; font-size: 38px; font-weight: 800; color: var(--primary); }
+@media (max-width: 820px) { .stats { grid-template-columns: repeat(2, 1fr); } }

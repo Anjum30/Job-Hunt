@@ -1,0 +1,9 @@
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 12px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-size: 13px; }
+.status { padding: 3px 10px; border-radius: 99px; font-size: 12px; font-weight: 700; }
+.status.Applied { background: #DBEAFE; color: #1D4ED8; }
+.status.Interview { background: #FEF3C7; color: #92400E; }
+.status.Rejected { background: #FEE2E2; color: #991B1B; }
+.status.Selected { background: #DCFCE7; color: #166534; }

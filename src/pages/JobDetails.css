@@ -1,0 +1,10 @@
+.details-head { margin-top: 12px; padding: 28px; }
+.details-head h1 { font-size: 32px; margin: 6px 0; }
+.details-company { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+.details-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.details-cols { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; margin-top: 16px; }
+.details-cols h3 { margin: 18px 0 6px; }
+.details-cols h3:first-child { margin-top: 0; }
+.details-cols ul { padding-left: 20px; margin: 0; }
+.details-cols ul.benefits { list-style: none; padding: 0; }
+@media (max-width: 820px) { .details-cols { grid-template-columns: 1fr; } }

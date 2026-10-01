@@ -1,0 +1,4 @@
+.category-card { text-align: left; display: flex; flex-direction: column; gap: 4px; transition: transform .2s, box-shadow .2s; }
+.category-card:hover { transform: translateY(-8px); box-shadow: 0 12px 28px rgba(15,23,42,.08); }
+.category-icon { font-size: 28px; display: inline-block; transition: transform .2s; }
+.category-card:hover .category-icon { transform: scale(1.1); }

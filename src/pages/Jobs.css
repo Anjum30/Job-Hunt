@@ -1,0 +1,7 @@
+.jobs-layout { display: grid; grid-template-columns: 260px 1fr; gap: 24px; align-items: start; }
+.jobs-bar { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.filters-open { display: none; }
+@media (max-width: 820px) {
+  .jobs-layout { grid-template-columns: 1fr; }
+  .filters-open { display: inline-flex; }
+}

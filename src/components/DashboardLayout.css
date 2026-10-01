@@ -1,0 +1,10 @@
+.dash-layout { display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: start; }
+.dash-side { position: sticky; top: 80px; display: flex; flex-direction: column; gap: 4px; }
+.dash-brand { padding: 6px 14px; font-size: 18px; }
+.dash-side a { padding: 10px 14px; border-radius: 10px; font-weight: 500; color: var(--muted); }
+.dash-side a:hover, .dash-side a.active { background: var(--soft); color: var(--primary); }
+@media (max-width: 820px) {
+  .dash-layout { grid-template-columns: 1fr; }
+  .dash-side { position: static; flex-direction: row; overflow-x: auto; }
+  .dash-brand { display: none; }
+}

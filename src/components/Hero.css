@@ -1,0 +1,12 @@
+.hero { padding: 72px 0 40px; text-align: center; }
+.hero h1 { font-size: clamp(34px, 6vw, 58px); line-height: 1.08; margin-bottom: 16px; letter-spacing: -.02em; font-weight: 800; }
+.hero p { max-width: 620px; margin: 0 auto 32px; font-size: 18px; color: var(--muted); }
+/* Step 1 → 4: heading fade, paragraph slide, search slide, popular */
+.hero-1 { animation: fadeIn .7s .05s both; }
+.hero-2 { animation: heroUp .6s .35s both; }
+.hero-3 { animation: heroUp .6s .6s both; }
+.hero-4 { animation: heroUp .6s .85s both; }
+@keyframes heroUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+.popular { margin-top: 18px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; align-items: center; font-size: 14px; }
+.chip { border: 1px solid var(--border); background: var(--card); border-radius: 99px; padding: 4px 12px; font-size: 13px; font-weight: 500; }
+.chip:hover { border-color: var(--primary); color: var(--primary); }
